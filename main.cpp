@@ -6,9 +6,12 @@ using namespace std;
 int main()
 {
 	cout << "Welcome to the fractionType Program!" << endl << endl;
-	fractionType f1(4, 7), f2(3, 2);
+	fractionType f1(4, 7), f2;
 	cout << "Fraction 1: " << f1 << endl;
 	cout << "Fraction 2: " << f2 << endl;
+	cout << endl;
+	cout << "Input a fraction in the form a / b." << endl << endl;
+	cin >> f2;
 	cout << endl;
 	cout << f1 << " + " << f2 << " = " << f1 + f2 << endl;
 	cout << f1 << " - " << f2 << " = " << f1 - f2 << endl;
